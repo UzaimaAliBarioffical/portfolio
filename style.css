@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto sans-serif ;
+    font-family: Roboto serif ;
 }
 :root{
     --primery-color:#14213D;
@@ -16,7 +16,7 @@ div.container{
 }
 .container{
     background-color: var(--tetery-color);
-    /* height: 100vh; */
+    /* height: 100%; */
 }
 .apna-nav{
     display: flex;
@@ -145,7 +145,11 @@ h5.card-title{
     color: var(--secondary-color);
 }
 .card img{
-    height: 30vh;
+    height: 40vh;
+    width: 100%;
+}
+.second-container{
+    height: 12vh;
     width: 100%;
 }
 
@@ -173,7 +177,10 @@ h5.card-title{
         flex-direction: column;
         width: 100%;
         justify-content: center;
-    }
+        
 
+
+    }
+   
 
 }
