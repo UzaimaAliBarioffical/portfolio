@@ -12,6 +12,9 @@
     --tetery-color:#000000;   
     --four-color:#f0b81c;   
 }
+body{
+    background-color: #000 !important;
+}
 
 div.container{
     margin-top: 4px;
@@ -69,25 +72,21 @@ margin-left: 2em;
 
 .fa-facebook{
     color: #0653f7;
-    /* margin-top: 6em; */
     margin-left: 5em;
     
     }
     .fa-linkedin{
         color: #0653f7;
-        /* margin-top: 6em; */
         margin-left: 1em;
         
     }
     .fa-square-x-twitter{
         color: #0653f7;
-        /* margin-top: 6em; */
         margin-left: 1em;
            
     }
     .fa-square-whatsapp{
         color: #0653f7;
-        /* margin-top: 6em; */
         margin-left: 1em;
         
     }
@@ -200,7 +199,7 @@ background-color: var(--four-color);
         left: 0;
     
     height: 100%;
-    background-color: #f0b81c;
+    background-color: var(--four-color);
     
     }
     .info span{
@@ -216,7 +215,7 @@ background-color: var(--four-color);
             width: 100%;
             margin-left: 0.5em;
             margin-top: 10px;
-            background-color: #000;
+            background-color: var(--tetery-color);
             border-radius: 20px;
             display: block;
             position: relative;
@@ -244,7 +243,7 @@ background-color: var(--four-color);
             width: 100%;
             margin-left: 0.5em;
             margin-top: 10px;
-            background-color: #000;
+            background-color: var(--tetery-color);
             border-radius: 20px;
             display: block;
             position: relative;
@@ -257,7 +256,7 @@ background-color: var(--four-color);
         left: 0;
     
     height: 100%;
-    background-color: #f0b81c;
+    background-color: var(--four-color);
     
     }
     .info span{
@@ -331,14 +330,12 @@ font-size: 18px;
     text-align: end;
     color: var(--secondary-color);
 }
-@keyframes myanimation {
-    from{
-
-    }
-    to{
-    transform:scaleX(1.1);
-    }
+footer span{
+    position: relative;
+    top: -25px;
+    right: 60px;
 }
+
 
 @media screen and (max-width:734px) {
     
