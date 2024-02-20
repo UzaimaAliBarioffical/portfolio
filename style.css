@@ -333,7 +333,8 @@ font-size: 18px;
 footer span{
     position: relative;
     top: -25px;
-    right: 60px;
+    right: 90px;
+    margin-left: -5px;
 }
 
 
