@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto serif ;
+
 }
+
 :root{
     --primery-color:#14213D;
     --secondary-color:#E5E5E5;
     --tetery-color:#000000;   
     --four-color:#f0b81c;   
 }
+
 div.container{
     margin-top: 4px;
     border-radius: 0.5em;
@@ -133,7 +136,7 @@ h5.card-title{
     width: 100%;
 }
 .second-container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
 }
 .info h3{
